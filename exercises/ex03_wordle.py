@@ -2,8 +2,6 @@
 __author__ = "730578568"
 
 """This function checks whether or not letter is contained in word."""
-from turtle import TurtleScreenBase
-
 
 def contains_char (word: str, letter: str) -> bool:
     assert len(letter) == 1
