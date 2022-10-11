@@ -2,14 +2,14 @@
 __author__ = "730578568"
 
 
-def invert(origdictionary: dict[str, str]) -> dict[str, str]:
+def invert(orig_dictionary: dict[str, str]) -> dict[str, str]:
     """This function inverts the original dictionary."""
     invertdictionary: dict[str, str] = {} 
-    for key in origdictionary:
+    for key in orig_dictionary:
         for x in invertdictionary:
-            if x == origdictionary[key]:
+            if x == orig_dictionary[key]:
                 raise KeyError("there are multiple keys that look the same")
-        invertdictionary[origdictionary[key]] = key 
+        invertdictionary[orig_dictionary[key]] = key 
     return invertdictionary
 
 
