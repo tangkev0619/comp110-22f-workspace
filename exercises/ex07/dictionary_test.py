@@ -1,7 +1,7 @@
 """EX07 - Dictionary Functions Test."""
 __author__ = "730578568"
 
-from exercises.ex07.dictionary import favorite_color, invert, count
+from exercises.ex07.dictionary import invert, favorite_color, count
 
 
 def test_invert_empty() -> None:
